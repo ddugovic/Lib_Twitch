@@ -1,7 +1,10 @@
 apply plugin: 'java-library'
+apply plugin: 'maven'
 
 sourceCompatibility = 1.8
 version = 0.1
+
+group = 'com.github.ddugovic'
 
 sourceSets {
     main {
